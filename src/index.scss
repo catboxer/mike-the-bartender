@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//ThemeColors
+$mainHighlight: #ff5722;
+$mainDark: #303841;
+$mainLight: #eee;
+$mainMed: #00adb5;
+$mainTransition: all 0.3s linear;
+//colors
+$mainBlack: #222;
+$mainYellow: #fef50f;
+$mainCream: #ccc;
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $mainDark;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.answers {
+  text-align: left;
+  margin-left: 20px;
+}

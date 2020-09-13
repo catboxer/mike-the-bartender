@@ -1,0 +1,39 @@
+@import "./index.scss";
+
+@media screen and (min-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, fr);
+    grid-gap: 5px, 10px;
+    //horizontal alignment
+    justify-items: center;
+    //vertical alignment
+    align-items: start;
+  }
+  .card-items {
+    grid-column: 1 / 3;
+    grid-row: 1/2;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .grid-container {
+    grid-template-columns: repeat(4, fr);
+  }
+  .card-items {
+    grid-column: 1 / 5;
+  }
+}
+
+.score {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2px 2px;
+  padding: 20px;
+  color: $mainHighlight;
+}
+h3 {
+  font-size: 2rem;
+  color: $mainLight;
+  text-align: center;
+}
