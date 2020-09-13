@@ -2,7 +2,7 @@
 
 .questions {
   background-color: $mainMed;
-  width: 20rem;
+  width: 16rem;
   margin: 2rem auto;
   padding: 1rem;
   border-radius: 0.3rem;
@@ -15,12 +15,12 @@
 
 .card-img {
   border-radius: 15%;
-  width: 250px;
+  width: 200px;
   border: 8px dotted $mainHighlight;
 }
 
 .answers {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: $mainBlack;
 }
 //radio buttons
